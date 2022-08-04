@@ -5,17 +5,24 @@ html{
 #Tip_calculate{
     height: 425px;
     width: 580px;
+    border-radius: 0px 100px 10px 100px;
     background-color: brown;
     display: grid; 
     grid-template-columns: 100px 1fr;
     grid-template-rows: 75px 75px 75px 75px ;
-    grid-template-areas: "" "" "" "" "";
+    grid-template-areas: 
+     ". Bill"
+     ". Percentage"
+      ". Amount"
+     ". Total"
+     "btn  btn";
+    
     margin: 50px auto;
     padding: 45px;
     color: white;
     
 }
-/* #Bill{
+#Bill{
    grid-area: Bill;
 }
 #Percentage{
@@ -26,4 +33,12 @@ html{
 }
 #Total{
    grid-area: Total;
-} */
+}
+#btn{
+    margin: 35px;
+    grid-area: btn;
+    height: 35px;
+    margin-left: 140px;
+    
+    
+}
