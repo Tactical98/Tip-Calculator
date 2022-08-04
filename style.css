@@ -4,7 +4,7 @@ html{
 }
 #Tip_calculate{
     height: 425px;
-    width: 580px;
+    width: 780px; 
     border-radius: 0px 100px 10px 100px;
     background-color: brown;
     display: grid; 
@@ -24,6 +24,7 @@ html{
 }
 #Bill{
    grid-area: Bill;
+   
 }
 #Percentage{
    grid-area: Percentage;
